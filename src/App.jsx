@@ -282,9 +282,10 @@ function DevelopersPage() {
       <div className="rounded-2xl border border-slate-200 bg-white p-6">
         <div className="mb-4 inline-flex rounded-xl bg-indigo-50 p-3 text-indigo-700"><Users /></div>
         <h2 className="text-lg font-bold">Group Members</h2>
-        <p className="mt-2 text-sm text-slate-500">Replace the sample names below with the complete names of all group members before your presentation.</p>
+        <p className="mt-2 text-sm text-slate-500">The complete names of our group member presentation.</p>
         <ol className="mt-5 space-y-3">
-          {["Member 1 - Enter Complete Name", "Member 2 - Enter Complete Name", "Member 3 - Enter Complete Name", "Member 4 - Enter Complete Name"].map((name, index) => (
+          {[" 1 - Jove Tristan Pelones", "2 - Cyron James Polias ", 
+"3 - Mike Rain Advincula", " 4 - Kyle John Flores"].map((name, index) => (
             <li key={index} className="rounded-lg bg-slate-50 px-4 py-3 font-medium">{index + 1}. {name}</li>
           ))}
         </ol>
